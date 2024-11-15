@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: #F9F7F6;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%; 
+    max-height: 100%; 
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.content {
+    font-family: VT323, monospace;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    margin-top: -20px; 
+    margin-bottom: 20px;  
+}
+
+.image-container {
+    border-radius: 50px;
+    width: 360px;
+    height: 390px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(233, 65, 65, 0.1);
+    padding: 50px;
+    box-sizing: border-box;
+    left: 5px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 65px;
+    color: black;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.click-button {
+    font-weight: 400;
+    border-radius: 30px;
+    font-size: 27px;
+    font-family: VT323, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 340px;
+    height: 61px;
+    margin-bottom: 60px;
+    background-color: #E94141
+}
+.change-button {
+    display: inline-flex;
+    position: fixed;
+    margin-top: 20px;
+    bottom: 5px;
+    right: 10px;
+    width: 60px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    position: absolute;
+
+}
