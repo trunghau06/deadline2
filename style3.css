@@ -33,6 +33,7 @@ html, body {
     flex-direction: column;
     padding-top: 10px;
     margin: 0;
+    height: auto; 
 }
 
 .image-link {
@@ -44,7 +45,7 @@ html, body {
 
 .image-container {
     width: 95vw;
-    height: 65vh;
+    height: 50vh;
     border: none;
     border-radius: 5px;
     justify-content: center;
@@ -53,8 +54,8 @@ html, body {
     box-sizing: border-box;
     margin-left: 8px; 
     margin-right: 10px; 
-    margin-bottom: 20px;
-    margin-top: 100px;
+    margin-bottom: 18px;
+    margin-top: -20px;
     display: flex;
     justify-content: center; 
     align-items: center;    
@@ -91,7 +92,7 @@ html, body {
     font-size: 35px;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     color: black;
     margin-left: 20px;
 }
@@ -101,14 +102,13 @@ html, body {
     font-weight: 400;
     margin-bottom: 25px;
     color: black;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .content {  
     color: #050505;
     line-height: 31;
-    margin-bottom: 23px;
-
+    margin-bottom: 25px;
 }
 
 .content1 {
@@ -125,7 +125,6 @@ html, body {
     font-size: 25px;
     font-family: 'Voltaire', sans-serif;
     margin-left: 30px;
-    margin-bottom: 25px;
 }
 .content2 del {
     text-decoration: line-through;
@@ -160,8 +159,8 @@ html, body {
 }
 
 .heart-container {
-    width: 35px; 
-    height: 35px; 
+    width: 45px; 
+    height: 45px; 
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -188,7 +187,7 @@ html, body {
     cursor: pointer;
     border-radius: 30px;
     text-decoration: none;
-    margin-left: 20px;
+    box-sizing: border-box;
 }
 
 .click-button {
