@@ -54,7 +54,7 @@ html, body {
     margin-left: 8px; 
     margin-right: 10px; 
     margin-bottom: 30px;
-    margin-top: 125Px;
+    margin-top: 140px;
     display: flex;
     justify-content: center; 
     align-items: center;    
@@ -146,7 +146,7 @@ html, body {
     margin-left: 20px;
     line-height: 1.5;
     font-family: 'Voltaire', sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .input-button1 {
