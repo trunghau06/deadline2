@@ -44,7 +44,7 @@ html, body {
     font-weight: 400;
     text-align: center;
     color: black;
-    margin-top: -20px; 
+    margin-top: 20px; 
     margin-bottom: 20px;  
 }
 
@@ -72,7 +72,7 @@ html, body {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 65px;
     color: black;
 }
