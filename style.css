@@ -90,6 +90,7 @@ html, body {
     border-radius: 30px;
     font-size: 27px;
     font-family: VT323, monospace;
+    text-decoration: none; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,23 +101,4 @@ html, body {
     height: 61px;
     margin-bottom: 60px;
     background-color: #E94141
-}
-.change-button {
-    display: inline-flex;
-    position: fixed;
-    margin-top: 20px;
-    bottom: 5px;
-    right: 10px;
-    width: 60px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    font-weight: bold;
-    position: absolute;
-
 }

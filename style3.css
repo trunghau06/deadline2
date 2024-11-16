@@ -12,6 +12,7 @@ html, body {
     align-items: center;
     overflow: hidden; 
 }
+
 .container {
     background-color: #F9F7F6;
     font-family: "Be Vietnam Pro", sans-serif;
@@ -24,6 +25,7 @@ html, body {
     align-items: center;
     position: relative;
 }
+
 .item {
     justify-content: center;
     align-items: center;
@@ -33,25 +35,34 @@ html, body {
     margin: 0;
 }
 
+.image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; 
+}
+
 .image-container {
     width: 95vw;
-    height: 45vh;
+    height: 65vh;
     border: none;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
     background-color: rgba(233, 65, 65, 0.1);
-    padding: 20px;
     box-sizing: border-box;
-    margin-left: 5.5px; 
-    margin-right: 7.5px; 
-    margin-bottom: 20px;
-    margin-top: -35px;
+    margin-left: 8px; 
+    margin-right: 10px; 
+    margin-bottom: 30px;
+    margin-top: 125Px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
 }
 
 .image-container img {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
 }
 
@@ -72,7 +83,7 @@ html, body {
 
 .title, .title2 {
     text-align: left; 
-    margin-left: 0;     
+    margin-left: 10px;     
     font-family: 'Voltaire', sans-serif;
 }
 
@@ -80,9 +91,9 @@ html, body {
     font-size: 35px;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
     color: black;
-    padding-left: 12px;
+    margin-left: 20px;
 }
 
 .title2 {
@@ -90,15 +101,14 @@ html, body {
     font-weight: 400;
     margin-bottom: 25px;
     color: black;
-    padding-left: 12px;
+    margin-left: 20px;
 }
-
-
 
 .content {  
     color: #050505;
     line-height: 31;
     margin-bottom: 23px;
+
 }
 
 .content1 {
@@ -106,12 +116,20 @@ html, body {
     font-size: 25px;
     font-family: 'Voltaire', sans-serif;
     padding-left: 12.5px;
+    margin-left: 30px;
+    margin-bottom: 25px;
 }
 
 .content2 {
     color: black; 
     font-size: 25px;
     font-family: 'Voltaire', sans-serif;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+.content2 del {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.57);
 }
 
 .item1 {
@@ -125,12 +143,12 @@ html, body {
     font-weight: 400;
     text-align: left;
     color: rgba(0, 0, 0, 0.57);
-    margin-bottom: 20px;
-    padding-left: 12px;
-    padding-right: 20px;
+    margin-left: 20px;
     line-height: 1.5;
     font-family: 'Voltaire', sans-serif;
+    margin-bottom: 30px;
 }
+
 .input-button1 {
     display: flex;
     justify-content: flex-start; 
@@ -139,7 +157,6 @@ html, body {
     padding-left: 10px; 
     width: 100%; 
     box-sizing: border-box; 
-  
 }
 
 .heart-container {
@@ -155,14 +172,14 @@ html, body {
     width: 100%; 
     height: 100%; 
     object-fit: contain;
-    margin-bottom: 55px;
+    margin-left: 20px;
 }
 
 .button-group {
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 80vw; 
+    width: 72vw; 
     height: 54px; 
     background-color: #E94141; 
     border-radius: 5px; 
@@ -170,33 +187,15 @@ html, body {
     font-size: 16px;
     cursor: pointer;
     border-radius: 30px;
-    margin-bottom: 55px;
+    text-decoration: none;
+    margin-left: 20px;
 }
 
 .click-button {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-    color: white;
-    
-}
-.back-button {
-    width: 60px;
-    height: 40px;
-    padding: 10px 10px;
-    background-color: #007bff;
-    color: white;
+    color: #FEFEFE;
     text-decoration: none;
-    border-radius: 10px;
-    font-weight: bold;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute; 
-    z-index: 10;
 }
-.back-button {
-    bottom: 5px;
-    left: 10px;
-    background-color: #ccc;
-}
+
