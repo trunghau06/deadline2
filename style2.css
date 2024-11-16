@@ -38,7 +38,7 @@ html, body {
     font-size: 25px;
     font-weight: 700;
     color: #E94141;
-    margin-top: 15px;
+    margin-top: 60px;
     margin-bottom: 20px;
     padding-left: 0;
     text-align: left;
@@ -65,8 +65,6 @@ html, body {
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    margin-bottom: 130px;
-    margin-top: 30px;
 }
 
 .all-button {
@@ -80,8 +78,7 @@ html, body {
     gap: 10px; 
     width: 100%;
     position: absolute;
-    margin-top: 490px;
-    margin-bottom: -200px;
+    bottom: 50px;
 }
 
 .image-container {
@@ -162,7 +159,6 @@ html, body {
     width: 60px;
     height: 40px;
     padding: 10px 10px;
-    background-color: #007bff;
     color: white;
     text-decoration: none;
     border-radius: 10px;
@@ -173,13 +169,6 @@ html, body {
     position: absolute; 
     z-index: 10;
 }
-
-
-.change-button {
-    bottom: 5px;
-    right: 10px;
-}
-
 
 .back-button {
     bottom: 5px;
