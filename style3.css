@@ -34,8 +34,8 @@ html, body {
 }
 
 .image-container {
-    width: calc(100% - 20px);
-    height: 100%; 
+    width: 95vw;
+    height: 45vh;
     border: none;
     border-radius: 5px;
     justify-content: center;
@@ -79,17 +79,17 @@ html, body {
     font-size: 35px;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     color: black;
-    padding-left: 5.5px;
+    padding-left: 12px;
 }
 
 .title2 {
     font-size: 25px;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     color: black;
-    padding-left: 5.5px;
+    padding-left: 12px;
 }
 
 
@@ -104,7 +104,7 @@ html, body {
     color: rgba(0, 0, 0, 0.57); 
     font-size: 25px;
     font-family: 'Voltaire', sans-serif;
-    padding-left: 10.5px;
+    padding-left: 12.5px;
 }
 
 .content2 {
@@ -124,8 +124,8 @@ html, body {
     font-weight: 400;
     text-align: left;
     color: rgba(0, 0, 0, 0.57);
-    margin-bottom: 30px;
-    padding-left: 5.5px;
+    margin-bottom: 50px;
+    padding-left: 12px;
     padding-right: 20px;
     line-height: 1.5;
     font-family: 'Voltaire', sans-serif;
@@ -154,14 +154,14 @@ html, body {
     width: 100%; 
     height: 100%; 
     object-fit: contain;
-    margin-bottom: 70px;
+    margin-bottom: 55px;
 }
 
 .button-group {
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 290px; 
+    width: 80vw; 
     height: 54px; 
     background-color: #E94141; 
     border-radius: 5px; 
@@ -169,7 +169,7 @@ html, body {
     font-size: 16px;
     cursor: pointer;
     border-radius: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 55px;
 }
 
 .click-button {
