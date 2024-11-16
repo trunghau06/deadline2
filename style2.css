@@ -21,7 +21,7 @@ html, body {
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    overflow: visible; 
+    overflow-y: auto;
 }
 
 .item {
@@ -78,6 +78,7 @@ html, body {
     gap: 15px; 
     width: 100%;
     position: relative; 
+  
 }
 
 .image-container {
